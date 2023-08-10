@@ -1,19 +1,17 @@
 #include <stdio.h>
-/*
- * main with the point of line to install packages
- * Return:0
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
-{       
-        char a;
-        int b;
-        long int c;
-        long long int d;
-        float f;
-        pritntf("Size of a char: %lu byte(s)\n",(unsigned long)sizeof(a));
-        pritntf("Size of a int: %lu byte(s)\n",(unsigned long)sizeof(b));
-        pritntf("Size of a int long: %lu byte(s)\n",(unsigned long)sizeof(c));
-        pritntf("Size of a long long int: %lu byte(s)\n",(unsigned long)sizeof(d));
-        pritntf("Size of a float: %lu byte(s)\n",(unsigned long)sizeof(f));
-        return (0);
+{
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(long long));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
+	return (0);
 }

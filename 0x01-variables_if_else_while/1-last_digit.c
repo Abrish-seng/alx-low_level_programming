@@ -1,24 +1,33 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/**
+ * main - n is greater positive, negative or zero
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
-        int last_digit;
+	int lastD;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	 last_digit=n%10;
-	if(last_digit >n){
-		printf(" Last digit of %d is %d and is greater than 5\n",n,last_digit);
+
+	lastD = n % 10;
+
+	if (lastD > 5)
+	{
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastD);
 	}
-	if(last_digit==0){
-		printf(" Last digit of %d is %d and is 0\n",n,last_digit);
+	else if (lastD < 6 && lastD != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastD);
 	}
-	if(last_digit<0 && last_digit!=0){
-		printf(" Last digit of %d is %d and is less than 6 and not 0\n",n,last_digit);
+	else
+	{
+		printf("Last digit of %d is %d and is 0\n", n, lastD);
 	}
+
 	return (0);
 }

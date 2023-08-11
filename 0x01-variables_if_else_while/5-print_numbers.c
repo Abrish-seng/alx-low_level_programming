@@ -1,19 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Prints the alphabet in lowercase, followed by a new line.
+ * main - Prints numbers.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int number;
+	char num;
 
-	for (number = 0; number <= 9; number++)
+	for (num = 0; num <= 9; num++)
 	{
-		
-		printf("%d",number);
-
+		printf("%d", num);
 	}
 	putchar('\n');
 	return (0);

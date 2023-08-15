@@ -1,9 +1,15 @@
-#include <stdio.h>
-
-/*
- * printing putchar in the main function.
+#include "holberton.h"
+/**
+ * print_alphabet - prints the english alphabet from a-z.
+ * Return: Nothing.
  */
-int main(viod){
-	putchar("_putchar \n");
-	return (0);
+void print_alphabet(void)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_putchar
+ *main  print _putchar
  * is written by abrish
  * Return: 0
  */

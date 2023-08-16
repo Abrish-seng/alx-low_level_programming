@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet - prints the english alphabet from a-z.
- * Return: Nothing.
+ * print_putchar
+ * is written by abrish
+ * Return: 0
  */
 int  main(void)
 {

@@ -1,4 +1,6 @@
-
+#ifndef main_h
+#define main_h
+#endif
 /**
 *File:main.h
 *Author:Pericles Adjovi

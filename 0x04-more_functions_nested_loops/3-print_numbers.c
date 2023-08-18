@@ -12,5 +12,5 @@ for (number = 0; number < 10; number++)
 {
 _putchar(number);
 }
-_putchar("\n");
+_putchar('\n');
 }

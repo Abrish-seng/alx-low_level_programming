@@ -4,8 +4,8 @@
  * pop_listint - delete the head node
  * @head: pointer to the first element in the linked list
  *
- * return: the data inside the elements
- * or 0 if the list is empty
+ * Return: the data inside the elements that was deleted,
+i * or 0 if the list is empty
  */
 int pop_listint(listint_t **head)
 {

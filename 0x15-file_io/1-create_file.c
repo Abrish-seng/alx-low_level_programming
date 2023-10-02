@@ -1,13 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+
 /**
-* create_file - creates the file and writes a file
-* @filename: is a pointer variable 
-* @text_content: that prints the content of the file
-* Description: Create a function that creates a file.
-* Return: returns the file if not null
-*/
+ * create_file - a function that creates a file and writes to the file
+ * @filename: variable pointer of the file
+ * @text_content: is a content file
+ * Description: Create a function that creates a file.
+ * Return: 1 when on  success, and -1 on failure
+ */
 
 int create_file(const char *filename, char *text_content)
 {

@@ -15,7 +15,7 @@ int add(int a, int b)
  * divn - divition of two integers
  * @a: first integer
  * @b: second integer
- * Return: divtion 
+ * Return: divition
  */
 int divn(int a, int b)
 {
@@ -28,10 +28,10 @@ int divn(int a, int b)
  * @b: second integer
  * Return: mod of numbers
  */
- int mod(int a, int b)
- {
-	 return (a % b);
- }
+int mod(int a, int b)
+{
+	return (a % b);
+}
 
 /**
  * mul - multiplication of two integers
@@ -39,10 +39,10 @@ int divn(int a, int b)
  * @b: second integer
  * Return: mul of numbers
  */
- int mul(int a, int b)
- {
-	 return (a * b);
- }
+int mul(int a, int b)
+{
+	return (a * b);
+}
 
 
 /**
@@ -51,7 +51,7 @@ int divn(int a, int b)
  * @b: second integer
  * Return: additin
  */
- int sub(int a, int b)
- {
-	 return (a - b);
- }
+int sub(int a, int b)
+{
+	return (a - b);
+}
